@@ -1,0 +1,94 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{apacite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Fixed-Priority Servers - Polling Server\\
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Kristina Bala}
+\IEEEauthorblockA{\textit{Hochschule Hamm-Lippstadt} \\
+\textit{Electronic Engineering}\\
+4th Semester \\
+kristina.bala@stud.hshl.de}
+
+}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+
+\end{IEEEkeywords}
+
+\section{First References}
+[1]\cite{davis2005hierarchical} 
+
+[2]\cite{buttazzo2011hard}
+
+\section {Motivation}
+Why do we need Fixed-Priority Servers?\\
+The problem\\
+
+\section{Introduction}
+
+\begin{itemize}
+\item Hybrid task sets (aperiodic and periodic\\
+Consisting of a subset of hard periodic tasks and a subset of soft aperiodic tasks\\
+\item Timing Constraints\\
+\item Sporadic Tasks\\
+Aperiodic tasks characterized by a minimum interarrival time\\
+\item Firms\\
+Aperiodic tasks requiring online guarantee on individual instances
+\end{itemize}
+
+\section{Scheduling algorithms for handling hybrid task sets}
+[2] Considerable assumptions when implementing the algorithms:\\
+\begin{itemize}
+\item Periodic tasks are scheduled based on a fixed-priority assignment; namely, the Rate-Monotonic (RM) algorithm.\\
+\item All periodic tasks start simultaneously at time t = 0 and their relative deadlines are equal to their periods.
+\item Arrival times of aperiodic requests are unknown.\\
+\item When not explicitly specified, the minimum interarrival time of a sporadic task is assumed to be equal to its deadline.\\
+\item All tasks are fully preemptable.\\
+\end{itemize}
+
+\subsection{Background Scheduling}
+
+\subsubsection{Method description}
+
+\subsubsection{Drawbacks}
+
+\subsubsection{Application}
+
+\subsection{Polling Server}
+
+\subsubsection{Method description}
+\begin{itemize}
+\item Schedulability analysis\\
+\item Dimentioning a polling server\\
+\item Aperiodic Guarantee\\
+\end{itemize}
+\subsubsection{Drawbacks}
+
+\subsubsection{Application}
+
+\subsubsection{Application Example}
+
+\section {Outlook}
+
+\section*{Acknowledgment}
+
+\bibliographystyle{apacite}
+\bibliography{ref.bib}
+\end{document}
